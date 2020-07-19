@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+
+\title{\textbf{CowTop Laptop Brainstorming}}
+\author{CrazyblocksTechnologies}
+\date{July 18--19, 2020}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\pagebreak
+
+\section{Introduction}
+
+CowTop is an ARM based laptop that uses the Raspberry Pi 4B (4GB version) SBC\footnote{SBC - Single Board Computer}. Main user input is the ThinkPad keyboard with TrackPoint mouse. The user can add a mouse when needed. 
+
+
+\section{Parts Used}
+\begin{itemize}
+\item Board: Raspberry Pi 4B (4GB version)
+\item USB Hub: USB Hub based on Terminus Technology FE1.1s USB Hub IC
+\item USB 90 degree extension for last USB port for above hub
+\item USB 3.0 panel mount with cable for user access
+\item Display: Leftover 1366x768 LG Display LP156WH2 or 1440x900 LG Philips Display
+\item Display Controller: LP156WH2 display controller based on Realtek or Novatek IC
+\item HDD: Hitachi 320GB SATA in USB 3.0 SATA case based on Norelsys NS1068 IC
+\item Keyboard: ThinkPad Wired USB Keyboard with TrackPoint
+\item RTC: Dallas Semiconductor/Maxim Integrated DS3231
+\end{itemize}
+\subsection{Battery and Power Management}
+\begin{itemize}
+\item Battery: 3S2P (6 cell) Samsung 18650 Lithium Ion Battery
+\item Battery controller: 15A DC-DC Boost Converter, DC-DC 5-40v 8A Buck Converter
+\item Battery voltage monitor
+\end{itemize}
+
+\pagebreak
+
+\section{Specifications}
+\begin{itemize}
+\item SoC: Broadcom BCM2711 Quad Core ARM Cortex-A72 64bit @ 1.5GHz
+\item Memory (RAM): Micron Technology 4GB LPDDR4 SDRAM
+\item OS Storage: 32GB Samsung MicroSD
+\item User Storage: HDD Hitachi 320GB
+\item Ethernet: 10/100/1000 from Broadcom BCM5421 controller 
+\item WiFi/Bluetooth: Broadcom 802.11b/g/n/ac, Bluetooth, 5.0 BLE
+\item User USB ports: 4x2.0, 1x3.0
+\item Battery: 5000mAh (milliamp hour) @ 11.1v
+\end{itemize}
+
+
+
+
+\end{document}
